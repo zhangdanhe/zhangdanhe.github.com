@@ -1,0 +1,190 @@
+/* Global Reset
+------------------------------------------------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1;}
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+
+/*My Style Sheet*/
+body {
+	background:#f85f6c;
+}
+.days {
+    font-size: 23em;
+    font-family: Helvetica, Arial, sans-serif;
+    width: auto;
+    text-align: left;
+	float:left;
+}
+
+.days-label {
+	font-size: 8em;
+    font-family: Helvetica, Arial, sans-serif;
+	float:right;
+	margin-top:0.4em;
+	padding-right:0.3em;
+	text-align:center;
+}
+
+.seconds {
+    font-size: 1.45em;
+    font-family: sans-serif, Helvetica, Arial, sans-serif;
+    width: auto;
+    text-align:center;
+	padding-top:1em;
+	clear:right;
+}
+
+.text {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:4em;
+	padding-top:0.4em;
+	text-align:center;
+	clear:right;
+}
+
+.container {
+	background:#f85f6c;
+	width: 100%;
+	padding-top: 6em;
+	padding-bottom: 15em;
+	color:#fff;
+}
+
+
+
+footer {
+	background:#e33f52;
+ 	padding: 3em;
+ 	text-align: right; 
+	color:#9d2c39;
+	width:auto;}
+    footer a {
+      color: #f85f6b;
+      font-weight: 700; 
+  	  text-decoration:none;
+	}
+      footer a:hover {
+        color: #000; }
+
+
+
+@media screen and (max-width: 1024px) {
+	.days {
+		font-size: 19em;
+	}
+	
+	.days-label{
+		font-size: 6em;
+	}
+	
+	.seconds {
+		padding-top: 1.4em;
+	    font-size: 1.1em;
+	}
+	
+	.text {
+		padding-top:0.8em;
+		font-size:3em;
+	}
+	
+}
+
+@media screen and (max-width: 768px) {
+	.days {
+		font-size: 20em;
+	}
+	
+	.days-label{
+		float:left;
+		text-align:left;
+		margin-left:0.7em;
+	}
+
+	.seconds {
+	    font-size: 1.45em;
+		padding-top:15.8em;
+	}
+
+	
+	.text{
+		padding-top:0.2em;
+	}
+	
+	footer {
+	 	text-align: center; 
+	}
+	
+}
+
+@media screen and (max-width: 480px){
+	
+	.days {
+		font-size: 9em;
+		float:none;
+		margin:auto 0;
+		text-align:center;
+	}
+	
+	.days-label{
+		float:none;
+		margin:auto 0;
+		text-align:center;
+		padding:0;
+	}
+	
+	.seconds {
+		float:none;
+	    font-size: 1.45em;
+		padding-top:1em;
+	}
+	
+	.container {
+		padding-top: 6em;
+		padding-bottom: 6em;
+	}
+	
+}
