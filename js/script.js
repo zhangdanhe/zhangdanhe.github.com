@@ -21,7 +21,9 @@ function updateNumbers() {
         hours = "0" + hours;
     duration = parseInt(duration / 24);
     var days = duration;
-    $('.days-number').text("" +"("+ days+")");
-    $('.seconds').text(hours + " hours " + minutes + " minutes " + seconds + " seconds");
+    $('.days-number').text(days);
+    $('.hours').text(hours);
+    $('.minutes').text(minutes);
+    $('.seconds').text(seconds);
     setTimeout("updateNumbers()", 1000);
 }

@@ -1,4 +1,6 @@
-.days {
+
+
+.days-number  {
     font-size: 216px;
     font-family: 'Rye', cursive;
     width: auto;
@@ -18,7 +20,12 @@
 }
 
 .container {
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     position: absolute;
+    background-image:: url(bg.png) no-repeat center;
 }
 
 @font-face {
